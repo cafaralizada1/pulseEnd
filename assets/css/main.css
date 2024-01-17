@@ -1,0 +1,353 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #fff;
+  z-index: 1;
+}
+header .nvb {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+}
+header .nvb a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+header .nvb a span {
+  color: #FBC216;
+}
+header .nvb .reservation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  font-size: 20px;
+  color: #fff;
+}
+header .nvb .reservation span {
+  color: #FBC216;
+}
+header .nvb .collapseDiv {
+  justify-content: center;
+  align-items: center;
+}
+header .nvb .collapseDiv .list li a {
+  color: #fff;
+}
+header .nvb .collapseDiv .list li a:hover {
+  color: #FBC216;
+  transition: 0.5s;
+}
+header .nvb .collapseDiv .list li .homeList {
+  color: #FBC216;
+}
+
+main #headerImg .bgImg img {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+main #headerImg .bgWord {
+  position: absolute;
+  bottom: 40%;
+  text-align: center;
+  left: 30%;
+}
+main #headerImg .bgWord h1 {
+  color: #fff;
+  position: relative;
+  font-size: 80px;
+}
+main #headerImg .bgWord h1 span {
+  color: #FBC216;
+}
+main #welcome {
+  margin-top: 5%;
+  text-align: center;
+}
+main #welcome .welcomeTxt i {
+  font-size: 40px;
+  color: gray;
+}
+main #welcome .welcomeTxt h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}
+main #welcome .welcomeCard {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+main #welcome .welcomeSignature {
+  margin-top: 5%;
+}
+main #testimonials {
+  margin-top: 5%;
+}
+main #testimonials .testimonialsImg {
+  background: url("/assets/image/review-bg (1).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+main #testimonials .testimonialsImg i {
+  font-size: 40px;
+}
+main #testimonials .testimonialsImg h3 span {
+  color: #FBC216;
+}
+main #js {
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #js #inp {
+  border: 0;
+  background-color: #c2a942;
+  padding: 6px;
+  margin-top: 5%;
+}
+main #js #inp:hover {
+  background-color: #000;
+  color: #c2a942;
+  transition: 0.5s;
+}
+main #js #searchBtn {
+  padding: 6px;
+  border: 0;
+}
+main #js #searchBtn:hover {
+  background-color: #000;
+  color: #c2a942;
+  transition: 0.5s;
+}
+main #js .jsTxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #js .jsTxt i {
+  font-size: 70px;
+}
+main #js #load {
+  padding: 8px;
+  background-color: #c2a942;
+  color: #000;
+  border: 0;
+  margin: 5%;
+}
+main #js #load:hover {
+  transition: 0.5s;
+  background-color: #000;
+  color: #FBC216;
+}
+main #js #card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+main #js #card .cardList {
+  gap: 14px;
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px #000;
+  border-radius: 16px;
+  width: 250px;
+  flex-wrap: wrap;
+}
+main #js #card .cardList h1 {
+  font-size: 20px;
+}
+main #js #card .cardList p {
+  font-size: 20px;
+}
+main #js #card .cardList img {
+  margin-top: 5%;
+  width: 90%;
+}
+main #js #card .cardList .btnJs .btnCard {
+  padding: 9px;
+  background-color: #c2a942;
+  color: #000;
+  border: 0;
+}
+main #js #card .cardList .btnJs .btnCard:hover {
+  background-color: #000;
+  color: #FBC216;
+  transition: 0.5s;
+}
+main #js #card .cardList .btnJs .btnWishlist {
+  border: 0;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #c2a942;
+  color: #000;
+}
+main #js #card .cardList .btnJs .btnWishlist:hover {
+  background-color: #000;
+  color: #FBC216;
+  transition: 0.5s;
+}
+main #menu {
+  background: url("/assets/image/footer-bg (1).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main #menu .menuTxt {
+  text-align: center;
+}
+main #menu .menuTxt i {
+  font-size: 50px;
+  color: #FBC216;
+}
+main #menu .menuList .nvb {
+  width: 90%;
+  gap: 14px;
+}
+main #menu .menuList .nvb a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+}
+main #menu .menuList .nvb a span {
+  color: #FBC216;
+}
+main #menu .menuList .nvb .reservation {
+  margin-top: 1%;
+  font-size: 20px;
+  color: #fff;
+}
+main #menu .menuList .nvb .reservation span {
+  color: #FBC216;
+}
+main #menu .menuList .nvb .collapseDiv .list li a {
+  color: #fff;
+}
+main #menu .menuList .nvb .collapseDiv .list li a:hover {
+  color: #FBC216;
+  transition: 0.5s;
+}
+main #menu .menuList .nvb .collapseDiv .list li .homeList {
+  color: #FBC216;
+}
+
+footer {
+  margin-top: 5%;
+}
+footer .footerImg {
+  background: url("/assets/image/footer-bg (1).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+footer .footerImg .footerForm {
+  margin-bottom: 5%;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer .footerImg .footerForm #form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 5%;
+}
+footer .footerImg .footerForm #form i {
+  font-size: 60px;
+  color: #FBC216;
+}
+footer .footerImg .footerForm #form h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 30px;
+}
+footer .footerImg .footerTxt {
+  margin-top: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 600;
+}
+footer .footerImg .footerTxt i {
+  color: gray;
+}
+footer .footerImg .footerTxt span {
+  color: rgb(0, 0, 145);
+}
+
+@media only screen and (max-width: 491px) {
+  main #headerImg .bgWord h1 {
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+  }
+  footer .footerImg .footerForm {
+    width: 100%;
+    margin-left: 0.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  main #headerImg .bgImg img {
+    height: 100vh;
+  }
+}
